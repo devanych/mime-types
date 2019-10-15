@@ -25,7 +25,7 @@ Creation:
 ```php
 use Devanych\Mime\MimeTypes;
 
-$mimeTypes = new MimeTypes(array $map = []);
+$mimeTypes = new MimeTypes();
 ```
 
 Conversion:
