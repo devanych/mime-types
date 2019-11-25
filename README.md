@@ -18,7 +18,7 @@ This library is installed using the composer:
 composer require devanych/mime-types
 ```
 
-## Usage Mime Types
+## Usage MimeTypes
 
 Creation:
 
@@ -74,7 +74,7 @@ $mimeTypes->addMap($map);
 
 > You can pass a map to the constructor when you create a `Devanych\Mime\MimeTypes` class, inside the constructor calls the `addMap()` method.
 
-## Usage Mime Types Allowed
+## Usage MimeTypesAllowed
 
 If you want to use only the allowed preset mime types and file extensions then use the `Devanych\Mime\MimeTypesAllowed` instead of the `Devanych\Mime\MimeTypes`.
 
