@@ -18,7 +18,7 @@ This library is installed using the composer:
 composer require devanych/mime-types
 ```
 
-## Usage
+## Usage Mime Types
 
 Creation:
 
@@ -73,3 +73,25 @@ $mimeTypes->addMap($map);
 ```
 
 > You can pass a map to the constructor when you create a `Devanych\Mime\MimeTypes` class, inside the constructor calls the `addMap()` method.
+
+## Usage Mime Types Allowed
+
+If you want to use only the allowed preset mime types and file extensions then use the `Devanych\Mime\MimeTypesAllowed` instead of the `Devanych\Mime\MimeTypes`.
+
+```php
+use Devanych\Mime\MimeTypesAllowed;
+
+$map = [
+    'image/gif' => ['gif'],
+    'image/png' => ['png'],
+    'image/jpeg' => ['jpeg', 'jpg', 'jpe'],
+];
+
+$mimeTypes = new MimeTypesAllowed($map);
+```
+
+When you create an instance of the `Devanych\Mime\MimeTypesAllowed` class, you MUST pass the map. If you pass an empty or incorrect map, the exception `InvalidArgumentException` will be thrown.
+
+> For security reasons when you create an instance of `Devanych\Mime\MimeTypesAllowed` class, the `addMap()` method is called in the constructor, but if you try to call the `addMap()` method again, the exception `LogicException` will be thrown.
+
+The methods `getMimeTypes()` and `getExtensions()` work the same as in the `Devanych\Mime\MimeTypes`, but the search is performed only in the preset mime types and file extensions that were passed to the constructor when creating an instance of the `Devanych\Mime\MimeTypesAllowed` class.
