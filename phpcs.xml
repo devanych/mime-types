@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="Devanych Mime Types Coding Standard">
-    <description>Devanych Pipe Router Coding Standard</description>
+    <description>Devanych Mime Types Coding Standard</description>
 
     <!-- display progress -->
     <arg value="p"/>
