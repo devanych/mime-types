@@ -9,7 +9,7 @@ use function array_merge;
 use function strtolower;
 use function trim;
 
-class MimeTypes implements MimeTypesInterface, MimeTypesMapsInterface
+final class MimeTypes implements MimeTypesInterface, MimeTypesMapsInterface
 {
     use MimeTypesTrait;
 

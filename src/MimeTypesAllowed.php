@@ -11,7 +11,7 @@ use function array_unique;
 use function strtolower;
 use function trim;
 
-class MimeTypesAllowed implements MimeTypesInterface
+final class MimeTypesAllowed implements MimeTypesInterface
 {
     use MimeTypesTrait;
 
