@@ -30,7 +30,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Devanych\\Test\\Mime\\": "tests/"
+            "Devanych\\Tests\\Mime\\": "tests/"
         }
     },
     "scripts": {

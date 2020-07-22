@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devanych\Test\Mime;
+namespace Devanych\Tests\Mime;
 
 use Devanych\Mime\MimeTypesAllowed;
 use PHPUnit\Framework\TestCase;
