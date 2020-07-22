@@ -16,15 +16,15 @@ class MimeTypes implements MimeTypesInterface, MimeTypesMapsInterface
     /**
      * @var array
      */
-    private $extensions = [];
+    private array $extensions = [];
 
     /**
      * @var array
      */
-    private $mimeTypes = [];
+    private array $mimeTypes = [];
 
     /**
-     * {@inheritdoc}
+     * @param array $map
      */
     public function __construct(array $map = [])
     {

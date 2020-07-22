@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace Devanych\Tests\Mime;
 
-use PHPUnit\Framework\TestCase;
 use Devanych\Mime\MimeTypes;
 use InvalidArgumentException;
+use PHPUnit\Framework\TestCase;
 
 class MimeTypesTest extends TestCase
 {
     /**
      * @var array
      */
-    private $customMap;
+    private array $customMap;
 
     public function setUp(): void
     {
