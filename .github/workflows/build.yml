@@ -70,8 +70,7 @@ jobs:
                 if: matrix.php-version == '7.4'
                 run: vendor/bin/psalm --no-progress
 
-            -   name: PHPUnit run on PHP 7.4
-                if: matrix.php-version == '7.4'
+            -   name: PHPUnit run
                 run: vendor/bin/phpunit --coverage-clover=coverage.clover
 
             -   name: Code coverage on PHP 7.4
