@@ -4,6 +4,7 @@
 [![Latest Stable Version](https://poser.pugx.org/devanych/mime-types/v)](https://packagist.org/packages/devanych/mime-types)
 [![Total Downloads](https://poser.pugx.org/devanych/mime-types/downloads)](https://packagist.org/packages/devanych/mime-types)
 [![GitHub Build Status](https://github.com/devanych/mime-types/workflows/build/badge.svg)](https://github.com/devanych/mime-types/actions)
+[![GitHub Static Analysis Status](https://github.com/devanych/mime-types/workflows/static/badge.svg)](https://github.com/devanych/mime-types/actions)
 [![Scrutinizer Code Coverage](https://scrutinizer-ci.com/g/devanych/mime-types/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/devanych/mime-types/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/devanych/mime-types/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/devanych/mime-types/?branch=master)
 
