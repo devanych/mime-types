@@ -1,5 +1,29 @@
 # Devanych Mime Types Change Log
 
+## 2.1.1 - 2020.09.06
+
+### Added
+
+- Adds support OS Windows to build github action.
+- Adds files to `.github` folder (ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE.md, CODE_OF_CONDUCT.md, SECURITY.md).
+
+### Changed
+
+- Moves Psalm issue handlers from psalm.xml to docBlock to appropriate methods.
+- Moves static analysis and checking of the code standard to an independent github action.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.1.0 - 2020-08-20
 
 ### Added
