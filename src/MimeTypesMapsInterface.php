@@ -7,7 +7,7 @@ namespace Devanych\Mime;
 interface MimeTypesMapsInterface
 {
     /**
-     * @const array
+     * Map keys are MIME types, and values are their file extensions.
      */
     public const EXTENSIONS = [
         'application/acrobat' => ['pdf'],
@@ -1469,7 +1469,7 @@ interface MimeTypesMapsInterface
     ];
 
     /**
-     * @const array
+     * Map keys are file extensions, and values are their MIME types.
      */
     public const MIME_TYPES = [
         '32x' => ['application/x-genesis-32x-rom'],

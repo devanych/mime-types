@@ -16,17 +16,17 @@ final class MimeTypesAllowed implements MimeTypesInterface
     use MimeTypesTrait;
 
     /**
-     * @var array
+     * @var array<string, string[]>
      */
     private array $extensions = [];
 
     /**
-     * @var array
+     * @var array<string, string[]>
      */
     private array $mimeTypes = [];
 
     /**
-     * @param array $map
+     * @param array<string, string[]> $map
      */
     public function __construct(array $map)
     {

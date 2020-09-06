@@ -38,7 +38,7 @@ interface MimeTypesInterface
      * ```
      * If the map format is invalid, an `\InvalidArgumentException` will be thrown when the map is added.
      *
-     * @param array $map
+     * @param array<string, string[]> $map
      */
     public function addMap(array $map): void;
 }

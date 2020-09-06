@@ -14,8 +14,9 @@ use function gettype;
 trait MimeTypesTrait
 {
     /**
-     * @param array $map
+     * @param array<string, string[]> $map
      * @see MimeTypesInterface::addMap()
+     * @psalm-suppress DocblockTypeContradiction
      */
     private function addMapInternal(array $map): void
     {
