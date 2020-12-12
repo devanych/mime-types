@@ -1,5 +1,28 @@
 # Devanych Mime Types Change Log
 
+## 2.1.2 - 2020.12.12
+
+### Added
+
+- Nothing.
+
+### Changed
+
+- Updates development dependencies.
+- Updates GitHub actions.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.1.1 - 2020.09.06
 
 ### Added
