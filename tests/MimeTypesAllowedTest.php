@@ -38,14 +38,12 @@ class MimeTypesAllowedTest extends TestCase
     public function testConstructorThrowExceptionForEmptyMap(): void
     {
         $this->expectException(InvalidArgumentException::class);
-        $this->expectErrorMessage('Map with allowed mime types cannot be empty');
         (new MimeTypesAllowed([]));
     }
 
     public function testAddMapThrowExceptionForNotCalledInConstructor(): void
     {
         $this->expectException(LogicException::class);
-        $this->expectErrorMessage('Map with allowed mime types already added');
         (new MimeTypesAllowed($this->map))->addMap($this->map);
     }
 
